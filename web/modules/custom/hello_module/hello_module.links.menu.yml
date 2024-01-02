@@ -1,0 +1,6 @@
+hello_module.helloaction:
+  title: 'Simple Content Link'
+  description: 'Link to the helloaction() method'
+  route_name: 'hello_module.helloaction'
+  weight: 10
+  menu_name: main

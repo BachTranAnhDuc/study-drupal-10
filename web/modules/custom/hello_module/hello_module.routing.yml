@@ -1,0 +1,15 @@
+hello_module.helloaction:
+  path: "/mycustompath"
+  defaults:
+    _controller: '\Drupal\hello_module\Controller\FirstController::helloAction'
+    _title: "Simplicity is the ultimate sophistication"
+  requirements:
+    _permission: "access content"
+
+hello_module.variableContent:
+  path: "/mycustompath/{name_1}/{name_2}"
+  defaults:
+    _controller: '\Drupal\hello_module\Controller\FirstController::variableContent'
+    _title: "Simplicity is the ultimate sophistication"
+  requirements:
+    _permission: "access content"
